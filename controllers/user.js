@@ -55,9 +55,9 @@ const userPut = async (req = request, res = response) => {
     } = req.params
     const {
         _id,
-        password,
         google,
-        correo,
+        password,
+        estado,
         ...user
     } = req.body
 
